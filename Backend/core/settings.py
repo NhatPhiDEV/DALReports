@@ -40,7 +40,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'drf_yasg',
-    'category.apps.CategoryConfig'
+    'category.apps.CategoryConfig',
+    'report.apps.ReportConfig',
+    'sales_report.apps.SalesReportConfig',
 ]
 
 MIDDLEWARE = [
@@ -104,7 +106,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'dal_reports',
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': '1234',
         'HOST': 'localhost',
         'PORT': '3306',
         'OPTIONS': {
