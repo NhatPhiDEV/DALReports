@@ -18,4 +18,4 @@ class SalesReport(models.Model):
 
     class Meta:
         db_table = 'sales_report'
-        ordering = ['-date']
+        ordering = ['-id']
